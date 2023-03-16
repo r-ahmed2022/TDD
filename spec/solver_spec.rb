@@ -7,7 +7,7 @@ describe Solver do
 
 describe 'testing the reverse of a string' do
     it 'Takes a string and return the reverse' do
-      expect(@solver.reverse('hello')).to eq('olleh')
+      expect(@solver.reverse('Riyaz')).to eq('zayiR')
     end
 
      end
