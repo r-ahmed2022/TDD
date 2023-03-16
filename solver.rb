@@ -3,3 +3,4 @@ class Solver
         str.strip.reverse
       end
 end
+
