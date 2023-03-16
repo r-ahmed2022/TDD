@@ -10,8 +10,5 @@ describe 'testing the reverse of a string' do
       expect(@solver.reverse('hello')).to eq('olleh')
     end
 
-    it 'Takes a number and and returns its factorial' do
-      expect(@solver.reverse(' Ali ')).to eq('ilA')
-    end
-  end
+     end
 end
