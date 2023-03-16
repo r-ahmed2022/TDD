@@ -1,6 +1,5 @@
 class Solver
-    def reverse(str)
-        str.strip.reverse
-      end
+  def reverse(str)
+    str.strip.reverse
+  end
 end
-
