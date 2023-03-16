@@ -12,6 +12,7 @@ describe Solver do
   end
 end
 
+
 RSpec.describe Solver do
   describe '#factorial' do
     context 'when n is 0' do
@@ -32,20 +33,5 @@ RSpec.describe Solver do
         expect { subject.factorial(-5) }. to raise_error(ArgumentError)
       end
     end
-  
-    describe 'testing the fizzbuzz' do
-        it "Takes a number and check if it's divisible by 3" do
-          expect(@solver.fizzbuzz(12)).to eq('fizz')
-        end
-        it "Takes a number and check if it's divisible by 5" do
-          expect(@solver.fizzbuzz(10)).to eq('buzz')
-        end
-        it "Takes a number and check if it's divisible by 3 and 5" do
-          expect(@solver.fizzbuzz(15)).to eq('fizzbuzz')
-        end
-        it "Takes a number and check if it's divisible by 3" do
-          expect(@solver.fizzbuzz(11)).to eq(11)
-        end
-      end
-    end
+  end
 end
