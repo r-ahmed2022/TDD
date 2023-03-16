@@ -51,8 +51,10 @@ This is an example of how you may give instructions on setting up your project l
 
 ### Key Features <a name="key-features"></a>
 
+- **Write unit tests using Rspec.**
 - **Implement TDD approach**
-- **Implement all tests**
+- **Write Rspec unit tests with mocks**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Getting Started
