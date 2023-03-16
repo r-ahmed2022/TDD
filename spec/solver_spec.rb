@@ -30,7 +30,7 @@ RSpec.describe Solver do
     context 'when n is a negative integer' do
       it 'raises an ArgumentError' do
         expect { subject.factorial(-1) }.to raise_error(ArgumentError)
-        expect { subject.factorial(-5) }. to raise_error(ArgumentError)
+        expect { subject.factorial(-5) }.to raise_error(ArgumentError)
       end
     end
   end
